@@ -10,19 +10,19 @@
     document.head.appendChild(st);
 })();
 const WEBHOOKS = {
-    GERAL: "SEU_LINK_AQUI",
-    APH: "SEU_LINK_AQUI",
-    RUF: "SEU_LINK_AQUI",
-    CORREGEDORIA: "SEU_LINK_AQUI",
-    INVESTIGACAO: "SEU_LINK_AQUI",
-    DETRAN: "SEU_LINK_AQUI",
-    FINANCEIRO: "SEU_LINK_AQUI",
-    WIPE: "SEU_LINK_AQUI",
+    GERAL: "https://discord.com/api/webhooks/1474066753720942829/qNag-FV5QH1BhgczVF2TgCvOVJ16aLNYtM4OyeRfMcq8VDlhik4Sarzdm4iwaEKO_ctO",
+    APH: "https://discord.com/api/webhooks/1474066753720942829/qNag-FV5QH1BhgczVF2TgCvOVJ16aLNYtM4OyeRfMcq8VDlhik4Sarzdm4iwaEKO_ctO",
+    RUF: "https://discord.com/api/webhooks/1474066753720942829/qNag-FV5QH1BhgczVF2TgCvOVJ16aLNYtM4OyeRfMcq8VDlhik4Sarzdm4iwaEKO_ctO",
+    CORREGEDORIA: "https://discord.com/api/webhooks/1474066753720942829/qNag-FV5QH1BhgczVF2TgCvOVJ16aLNYtM4OyeRfMcq8VDlhik4Sarzdm4iwaEKO_ctO",
+    INVESTIGACAO: "https://discord.com/api/webhooks/1474066753720942829/qNag-FV5QH1BhgczVF2TgCvOVJ16aLNYtM4OyeRfMcq8VDlhik4Sarzdm4iwaEKO_ctO",
+    DETRAN: "https://discord.com/api/webhooks/1474066753720942829/qNag-FV5QH1BhgczVF2TgCvOVJ16aLNYtM4OyeRfMcq8VDlhik4Sarzdm4iwaEKO_ctO",
+    FINANCEIRO: "https://discord.com/api/webhooks/1474066753720942829/qNag-FV5QH1BhgczVF2TgCvOVJ16aLNYtM4OyeRfMcq8VDlhik4Sarzdm4iwaEKO_ctO",
+    WIPE: "https://discord.com/api/webhooks/1474066753720942829/qNag-FV5QH1BhgczVF2TgCvOVJ16aLNYtM4OyeRfMcq8VDlhik4Sarzdm4iwaEKO_ctO",
 };
 const DEFAULT_CONFIG = {
     sigla: "S.I.G.O.",
     nome: "Secretaria de Segurança Pública",
-    brasao: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Bras%C3%A3o_da_Pol%C3%ADcia_Militar_do_Estado_de_S%C3%A3o_Paulo.svg/200px-Bras%C3%A3o_da_Pol%C3%ADcia_Militar_do_Estado_de_S%C3%A3o_Paulo.svg.png",
+    brasao: "https://cdn.discordapp.com/attachments/1474042358537392199/1474114255182626971/Bombeiro.png?ex=699aa5a2&is=69995422&hm=f02d26b5da6ab577240f5fc3cd7a5de077a3907e159aae9ee4e096c9dc54e344& ",
 };
 const DEFAULT_MODULES = { detran: true, bo: true, ouvidoria: true, licencas: true, mandados: true };
 let civilPassAtual = null,
